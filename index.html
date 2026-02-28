@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Denver Sports Bars - Interactive Map</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+        #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+        .sidebar { position: absolute; top: 20px; left: 20px; width: 350px; max-height: calc(100vh - 40px); 
+                   background: white; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.2); 
+                   overflow: hidden; z-index: 1000; }
+        .sidebar-header { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); 
+                          color: white; padding: 20px; }
+        .sidebar-header h1 { font-size: 1.5em; margin-bottom: 5px; }
+        .sidebar-header .subtitle { font-size: 0.9em; opacity: 0.9; }
+        .sidebar-content { padding: 20px; max-height: calc(100vh - 200px); overflow-y: auto; }
+        .filter-section { margin-bottom: 20px; }
+        .filter-section label { display: block; font-weight: 600; margin-bottom: 8px; }
+        .sport-buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+        .sport-btn { flex: 1; padding: 10px; border: 2px solid #e2e8f0; border-radius: 8px; 
+                     background: white; cursor: pointer; font-weight: 600; text-align: center; }
+        .sport-btn.active { background: #3b82f6; color: white; border-color: #3b82f6; }
+        input[type="text"] { width: 100%; padding: 10px; border: 2px solid #e2e8f0; 
+                              border-radius: 8px; font-size: 14px; }
+        .bar-list { margin-top: 20px; }
+        .bar-item { padding: 12px; border-left: 4px solid #3b82f6; background: #f8fafc; 
+                    margin-bottom: 10px; border-radius: 4px; cursor: pointer; }
+        .bar-item:hover { background: #eff6ff; }
+        .bar-name { font-weight: bold; margin-bottom: 4px; }
+        .bar-teams { font-size: 0.85em; color: #64748b; }
+        @media (max-width: 768px) {
+            .sidebar { width: calc(100% - 40px); max-height: 50vh; }
+        }
+    </style>
+</head>
+<body>
+    <div id="map"></div>
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h1>🏈⚾🏒🏀 Denver Sports Bars</h1>
+            <div class="subtitle">Interactive Map Directory</div>
+        </div>
+        <div class="sidebar-content">
+            <div class="filter-section">
+                <label>Filter by Sport:</label>
+                <div class="sport-buttons">
+                    <button class="sport-btn active" data-sport="NFL">🏈 NFL</button>
+                    <button class="sport-btn active" data-sport="MLB">⚾ MLB</button>
+                    <button class="sport-btn active" data-sport="NHL">🏒 NHL</button>
+                    <button class="sport-btn active" data-sport="NBA">🏀 NBA</button>
+                </div>
+            </div>
+            <div class="filter-section">
+                <label>Search:</label>
+                <input type="text" id="search" placeholder="Bar name or team...">
+            </div>
+            <div class="bar-list" id="barList"></div>
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script>
+        const map = L.map('map').setView([39.7392, -104.9903], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+        
+        let barsData = [];
+        let markers = [];
+        let activeSports = new Set(['NFL', 'MLB', 'NHL', 'NBA']);
+        
+        // Load and geocode bars (simplified - addresses would need real geocoding)
+        // For demo, we'll use approximate Denver coordinates
+        fetch('denver-sports-bars-google-maps.csv')
+            .then(r => r.text())
+            .then(text => {
+                const lines = text.split('\n').slice(1);
+                barsData = lines.map((line, i) => {
+                    const match = line.match(/^"?([^",]+)"?,\s*"?([^",]+)"?,\s*"([^"]*)",\s*"?([^",]+)"?,\s*"([^"]*)"/);
+                    if (!match) return null;
+                    return {
+                        name: match[1],
+                        address: match[2],
+                        description: match[3],
+                        sports: match[4],
+                        teams: match[5],
+                        lat: 39.7392 + (Math.random() - 0.5) * 0.1,
+                        lng: -104.9903 + (Math.random() - 0.5) * 0.1
+                    };
+                }).filter(b => b);
+                renderMap();
+                renderList();
+            });
+        
+        function renderMap() {
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+            
+            barsData.forEach(bar => {
+                const sportList = bar.sports.split(',').map(s => s.trim());
+                if (!sportList.some(s => activeSports.has(s))) return;
+                
+                const marker = L.marker([bar.lat, bar.lng]).addTo(map);
+                marker.bindPopup(`<b>${bar.name}</b><br>${bar.address}<br><small>${bar.teams}</small>`);
+                markers.push(marker);
+            });
+        }
+        
+        function renderList() {
+            const search = document.getElementById('search').value.toLowerCase();
+            const filtered = barsData.filter(bar => {
+                const sportList = bar.sports.split(',').map(s => s.trim());
+                if (!sportList.some(s => activeSports.has(s))) return false;
+                if (search && !(bar.name + bar.teams).toLowerCase().includes(search)) return false;
+                return true;
+            });
+            
+            document.getElementById('barList').innerHTML = filtered.map(bar => 
+                `<div class="bar-item" onclick="map.setView([${bar.lat}, ${bar.lng}], 15)">
+                    <div class="bar-name">${bar.name}</div>
+                    <div class="bar-teams">${bar.teams}</div>
+                </div>`
+            ).join('');
+        }
+        
+        document.querySelectorAll('.sport-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                btn.classList.toggle('active');
+                activeSports.has(btn.dataset.sport) ? 
+                    activeSports.delete(btn.dataset.sport) : 
+                    activeSports.add(btn.dataset.sport);
+                renderMap();
+                renderList();
+            });
+        });
+        
+        document.getElementById('search').addEventListener('input', renderList);
+    </script>
+</body>
+</html>

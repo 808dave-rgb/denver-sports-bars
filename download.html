@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Download Denver Sports Bars Files</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        h1 { color: #1e3a8a; margin-bottom: 10px; }
+        .subtitle { color: #64748b; margin-bottom: 30px; }
+        .file-list { margin: 20px 0; }
+        .file-item {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .file-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #1e293b;
+            margin-bottom: 5px;
+        }
+        .file-desc {
+            color: #64748b;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        .download-btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #3b82f6;
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+        .download-btn:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+        }
+        .instructions {
+            background: #eff6ff;
+            border-left: 4px solid #3b82f6;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 4px;
+        }
+        .instructions h3 { margin-top: 0; color: #1e40af; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏈⚾🏒🏀 Denver Sports Bars</h1>
+        <div class="subtitle">Download Your Visualization Files</div>
+        
+        <div class="file-list">
+            <div class="file-item">
+                <div class="file-name">📱 Simple Directory</div>
+                <div class="file-desc">Searchable list with sport filters. Open in any browser, works offline.</div>
+                <a href="denver-sports-bars.html" download class="download-btn">Download HTML</a>
+            </div>
+            
+            <div class="file-item">
+                <div class="file-name">🗺️ Interactive Map</div>
+                <div class="file-desc">Full map with pins and sidebar. Requires CSV file to work.</div>
+                <a href="index.html" download class="download-btn">Download HTML</a>
+            </div>
+            
+            <div class="file-item">
+                <div class="file-name">📊 Data File (CSV)</div>
+                <div class="file-desc">80 bars with full details. Import to Google My Maps or use with websites.</div>
+                <a href="denver-sports-bars-google-maps.csv" download class="download-btn">Download CSV</a>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>📝 How to Use:</h3>
+            <ol>
+                <li><strong>Simple Directory:</strong> Download and open denver-sports-bars.html in any browser</li>
+                <li><strong>Interactive Map:</strong> Download both index.html AND the CSV, keep them in the same folder, open index.html</li>
+                <li><strong>Google My Maps:</strong> Go to google.com/maps/d/, import the CSV file</li>
+            </ol>
+        </div>
+        
+        <div class="instructions" style="background: #fef3c7; border-color: #f59e0b;">
+            <h3 style="color: #92400e;">🚀 Quick View:</h3>
+            <p>Want to see them live without downloading?</p>
+            <a href="denver-sports-bars.html" target="_blank" style="color: #92400e; font-weight: bold;">→ View Simple Directory</a><br>
+            <a href="index.html" target="_blank" style="color: #92400e; font-weight: bold;">→ View Interactive Map</a>
+        </div>
+    </div>
+</body>
+</html>

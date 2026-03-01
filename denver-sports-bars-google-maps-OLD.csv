@@ -1,41 +1,41 @@
-Name,Address,Description,Sport,Teams,Latitude,Longitude
+Name,Address,Description,Sport,Teams
 1UP Colfax,"717 E Colfax Ave, Denver, CO","717 E Colfax Ave, Denver, CO
 
 Sports: NBA
 Teams: Denver Nuggets, All NBA Teams
 
-Arcade + sports bar",NBA,"Denver Nuggets, All NBA Teams",39.7401586,-104.978147
+Arcade + sports bar",NBA,"Denver Nuggets, All NBA Teams"
 Andrews on Lincoln,"1111 Lincoln Street, Denver, CO 80203","1111 Lincoln Street, Denver, CO 80203
 
 Sports: MLB
 Teams: NEW YORK YANKEES
 
-FORMERLY a Yankees bar that showed Yankees games throughout the season. Now permanently closed.",MLB,NEW YORK YANKEES,39.7342328,-104.9865051
+FORMERLY a Yankees bar that showed Yankees games throughout the season. Now permanently closed.",MLB,NEW YORK YANKEES
 Bayou Bob's,"1635 Glenarm Place, Denver, CO","1635 Glenarm Place, Denver, CO
 Web: bayoubobs.com
 
 Sports: NFL
 Teams: New Orleans Saints
 
-New Orleans-themed bar",NFL,New Orleans Saints,39.7443727,-104.9899963
+New Orleans-themed bar",NFL,New Orleans Saints
 Big Hoss Bar-B-Q Steakhouse,"3961 Tennyson St, Denver, CO","3961 Tennyson St, Denver, CO
 Web: denverbbq.net
 
 Sports: NFL
-Teams: Seattle Seahawks",NFL,Seattle Seahawks,39.772222,-105.044342
+Teams: Seattle Seahawks",NFL,Seattle Seahawks
 Blake Street Tavern,"2301 Blake St, Denver, CO","2301 Blake St, Denver, CO
 
 Sports: NFL
 Teams: Miami Dolphins, New England Patriots, Kansas City Chiefs, Detroit Lions, Atlanta Falcons
 
-Mentioned by Dolphins fans on Reddit as backup option",NFL,"Miami Dolphins, New England Patriots, Kansas City Chiefs, Detroit Lions, Atlanta Falcons",39.7575731,-104.9906236
+Mentioned by Dolphins fans on Reddit as backup option",NFL,"Miami Dolphins, New England Patriots, Kansas City Chiefs, Detroit Lions, Atlanta Falcons"
 Blake Street Tavern,"2401 Blake Street, Denver, CO","2401 Blake Street, Denver, CO
 Web: blakestreettavern.com
 
 Sports: MLB
 Teams: BOSTON RED SOX, COLORADO ROCKIES
 
-Official Red Sox bar. Also hosts New England Patriots fans. Multi-team sports bar in LoDo near Coors Field.",MLB,"BOSTON RED SOX, COLORADO ROCKIES",39.7587061,-104.9891438
+Official Red Sox bar. Also hosts New England Patriots fans. Multi-team sports bar in LoDo near Coors Field.",MLB,"BOSTON RED SOX, COLORADO ROCKIES"
 Candlelight Tavern,"383 S Pearl St, Denver, CO 80209","383 S Pearl St, Denver, CO 80209
 Phone: (303) 778-9530
 Web: candlelighttavern.com
@@ -43,7 +43,7 @@ Web: candlelighttavern.com
 Sports: NFL
 Teams: Detroit Lions
 
-Cozy Lions bar with relaxed atmosphere",NFL,Detroit Lions,39.7095228,-104.9806537
+Cozy Lions bar with relaxed atmosphere",NFL,Detroit Lions
 Cap City Tavern,"1247 Bannock St, Denver, CO 80204","1247 Bannock St, Denver, CO 80204
 Phone: (720) 931-8888
 Web: capcitytavern.com
@@ -51,18 +51,18 @@ Web: capcitytavern.com
 Sports: NFL
 Teams: Minnesota Vikings
 
-Primary Vikings bar. Featured in Vikings Fan Spotlight (2015).",NFL,Minnesota Vikings,39.7361634,-104.9905322
+Primary Vikings bar. Featured in Vikings Fan Spotlight (2015).",NFL,Minnesota Vikings
 Cherry Cricket - Downtown,"LoDo (former Breck on Blake location), Denver, CO","LoDo (former Breck on Blake location), Denver, CO
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Popular Denver burger chain. LoDo location near Coors Field. General sports bar atmosphere.",MLB,COLORADO ROCKIES,,
+Popular Denver burger chain. LoDo location near Coors Field. General sports bar atmosphere.",MLB,COLORADO ROCKIES
 Chinook Bar & Grill,"1950 S Holly, Denver, CO","1950 S Holly, Denver, CO
 Web: chinookdenver.com
 
 Sports: NFL
-Teams: Seattle Seahawks",NFL,Seattle Seahawks,39.681458,-104.921394
+Teams: Seattle Seahawks",NFL,Seattle Seahawks
 Chopper's Sports Grill,"80 S Madison St, Denver, CO 80209","80 S Madison St, Denver, CO 80209
 Phone: (303) 399-4448
 Web: chopperssportsgrill.com
@@ -70,81 +70,81 @@ Web: chopperssportsgrill.com
 Sports: NFL
 Teams: New York Jets, Baltimore Ravens, Jacksonville Jaguars, Tennessee Titans, Los Angeles Chargers (San Diego Chargers)
 
-Jets bar (also hosts Ravens, Jaguars, Titans, Chargers)",NFL,"New York Jets, Baltimore Ravens, Jacksonville Jaguars, Tennessee Titans, Los Angeles Chargers (San Diego Chargers)",39.7149002,-104.9458209
+Jets bar (also hosts Ravens, Jaguars, Titans, Chargers)",NFL,"New York Jets, Baltimore Ravens, Jacksonville Jaguars, Tennessee Titans, Los Angeles Chargers (San Diego Chargers)"
 Coors Field Rooftop Bar,"Inside Coors Field, 2001 Blake Street, Denver, CO 80205","Inside Coors Field, 2001 Blake Street, Denver, CO 80205
 
 Sports: MLB
 Teams: LOS ANGELES DODGERS
 
-Colorado Dodgers Fans gather here (4:30pm on game days). $3 Coors/Coors Light, $6 craft beers (opens 2 hours before games).",MLB,LOS ANGELES DODGERS,,
+Colorado Dodgers Fans gather here (4:30pm on game days). $3 Coors/Coors Light, $6 craft beers (opens 2 hours before games).",MLB,LOS ANGELES DODGERS
 Cowboy Lounge,"1941 Market St, Denver, CO","1941 Market St, Denver, CO
 Web: tavernhg.com/cowboy-lounge
 
 Sports: NFL
-Teams: Las Vegas Raiders (Oakland Raiders)",NFL,Las Vegas Raiders (Oakland Raiders),39.753151,-104.994214
+Teams: Las Vegas Raiders (Oakland Raiders)",NFL,Las Vegas Raiders (Oakland Raiders)
 DNVR Bar,"2239 E Colfax Ave, Denver, CO 80206","2239 E Colfax Ave, Denver, CO 80206
 
 Sports: NFL, NHL
 Teams: Los Angeles Rams (St. Louis Rams), Colorado Avalanche, All NHL Teams
 
-CSU Rams (Colorado State) basketball watch parties with game sound. May also accommodate LA Rams fans.","NFL, NHL","Los Angeles Rams (St. Louis Rams), Colorado Avalanche, All NHL Teams",39.7401929,-104.959954
+CSU Rams (Colorado State) basketball watch parties with game sound. May also accommodate LA Rams fans.","NFL, NHL","Los Angeles Rams (St. Louis Rams), Colorado Avalanche, All NHL Teams"
 DNVR Bar,"Denver, CO","Denver, CO
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Run by DNVR media company (Denver sports coverage). Entertainment atmosphere for Denver team game days. $17 chicken tenders, $14 chips/salsa, $19 b...",MLB,COLORADO ROCKIES,39.7392364,-104.984862
+Run by DNVR media company (Denver sports coverage). Entertainment atmosphere for Denver team game days. $17 chicken tenders, $14 chips/salsa, $19 b...",MLB,COLORADO ROCKIES
 DNVR Bar,"2239 E Colfax Ave, Denver, CO","2239 E Colfax Ave, Denver, CO
 Web: dnvrbar.com
 
 Sports: NBA
 Teams: Denver Nuggets, All NBA Teams
 
-Official Nuggets bar, best atmosphere",NBA,"Denver Nuggets, All NBA Teams",39.7401929,-104.959954
+Official Nuggets bar, best atmosphere",NBA,"Denver Nuggets, All NBA Teams"
 Dillinger's Food & Spirits,"1202 Centaur Village Dr, Lafayette, CO","1202 Centaur Village Dr, Lafayette, CO
 Web: dillingersfoodandspirits.com
 
 Sports: NFL
 Teams: Philadelphia Eagles
 
-Eagles bar in Lafayette area",NFL,Philadelphia Eagles,,
+Eagles bar in Lafayette area",NFL,Philadelphia Eagles
 Don's Club Tavern,"723 E 6th Ave, Denver, CO","723 E 6th Ave, Denver, CO
 Web: donsclubtavern.com
 
 Sports: NFL
 Teams: Kansas City Chiefs
 
-Primary Chiefs bar. ""Chiefs Fans in Mile High"" group. Features Jell-O shots, Busch Buckets, Chiefs Cups with $3 Bud Light refills, Tito's Bloody Bar during games.",NFL,Kansas City Chiefs,39.7257363,-104.9782201
+Primary Chiefs bar. ""Chiefs Fans in Mile High"" group. Features Jell-O shots, Busch Buckets, Chiefs Cups with $3 Bud Light refills, Tito's Bloody Bar during games.",NFL,Kansas City Chiefs
 Draft Sports Grill,"9150 W Cross Dr, Littleton, CO","9150 W Cross Dr, Littleton, CO
 Web: thedraftsportsgrill.com
 
 Sports: NFL
-Teams: Indianapolis Colts",NFL,Indianapolis Colts,,
+Teams: Indianapolis Colts",NFL,Indianapolis Colts
 Drink Wisconsinbly,"Denver, CO (address TBD)","Denver, CO (address TBD)
 
 Sports: NBA
 Teams: Milwaukee Bucks
 
-Wisconsin-themed bar",NBA,Milwaukee Bucks,,
+Wisconsin-themed bar",NBA,Milwaukee Bucks
 Fainting Goat Pub,"846 Broadway, Denver, CO","846 Broadway, Denver, CO
 Web: thefaintinggoatdenver.net
 
 Sports: NFL
-Teams: Atlanta Falcons",NFL,Atlanta Falcons,39.7765527,-104.9876068
+Teams: Atlanta Falcons",NFL,Atlanta Falcons
 Falling Rock Tap House,"1919 Blake St, Denver, CO","1919 Blake St, Denver, CO
 Web: fallingrocktaphouse.com
 
 Sports: NFL
 Teams: Houston Texans
 
-Also hosts Texans fans",NFL,Houston Texans,39.7539339,-104.9954691
+Also hosts Texans fans",NFL,Houston Texans
 Falling Rock Tap House,"1919 Blake Street, Denver, CO","1919 Blake Street, Denver, CO
 Web: fallingrocktaphouse.com
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-LoDo craft beer bar. Also hosts Houston Texans fans.",MLB,COLORADO ROCKIES,39.7539339,-104.9954691
+LoDo craft beer bar. Also hosts Houston Texans fans.",MLB,COLORADO ROCKIES
 Hayter's & Co,"1920 Blake St, Denver, CO 80202","1920 Blake St, Denver, CO 80202
 Phone: (720) 513-3095
 Web: haytersandco.com
@@ -152,14 +152,14 @@ Web: haytersandco.com
 Sports: NFL
 Teams: Chicago Bears
 
-""Denver's Home of the Chicago Bears."" Over 20 big screens including 2x100"" HD projectors and 6x70"" 4K TVs. Official Bears headquarters.",NFL,Chicago Bears,39.7535795,-104.9950107
+""Denver's Home of the Chicago Bears."" Over 20 big screens including 2x100"" HD projectors and 6x70"" 4K TVs. Official Bears headquarters.",NFL,Chicago Bears
 Hayter's & Co.,"1920 Blake Street, Denver, CO","1920 Blake Street, Denver, CO
 Web: haytersandco.com
 
 Sports: MLB
 Teams: CHICAGO CUBS, COLORADO ROCKIES
 
-Top sports bar with 20+ big screens (2x 100-inch HD projectors, 6x 70-inch 4K TVs). Home away from home for Ohio State. Also hosts Cubs and Chicago...",MLB,"CHICAGO CUBS, COLORADO ROCKIES",39.7535795,-104.9950107
+Top sports bar with 20+ big screens (2x 100-inch HD projectors, 6x 70-inch 4K TVs). Home away from home for Ohio State. Also hosts Cubs and Chicago...",MLB,"CHICAGO CUBS, COLORADO ROCKIES"
 Historian's Ale House,"24 Broadway #102, Denver, CO 80203","24 Broadway #102, Denver, CO 80203
 Phone: (720) 479-8505
 Web: historiansalehouse.com
@@ -167,21 +167,21 @@ Web: historiansalehouse.com
 Sports: NFL
 Teams: New England Patriots
 
-Colorado-proud tavern with locally sourced food, history-themed decor. Current Patriots bar as of 2024.",NFL,New England Patriots,39.7171546,-104.9873081
+Colorado-proud tavern with locally sourced food, history-themed decor. Current Patriots bar as of 2024.",NFL,New England Patriots
 Icehouse Tavern,"1801 Wynkoop St, Denver, CO","1801 Wynkoop St, Denver, CO
 Web: icehouselodo.com
 
 Sports: NBA, NFL
 Teams: San Francisco 49ers, Indiana Pacers
 
-49ers bar","NBA, NFL","San Francisco 49ers, Indiana Pacers",39.7542569,-104.998387
+49ers bar","NBA, NFL","San Francisco 49ers, Indiana Pacers"
 Jackson's,"1520 20th Street, Denver, CO","1520 20th Street, Denver, CO
 Web: jacksonsdenver.com
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Directly across street from Coors Field. 70 HD screens. Enormous rooftop patio. Multiple food/drink specials. Also hosts Steelers and Buccaneers fans.",MLB,COLORADO ROCKIES,39.7544952,-104.9951467
+Directly across street from Coors Field. 70 HD screens. Enormous rooftop patio. Multiple food/drink specials. Also hosts Steelers and Buccaneers fans.",MLB,COLORADO ROCKIES
 Jackson's LoDo,"1520 20th Street, Denver, CO 80202","1520 20th Street, Denver, CO 80202
 Phone: (303) 298-7625
 Web: jacksonslodo.com
@@ -189,7 +189,7 @@ Web: jacksonslodo.com
 Sports: NFL
 Teams: Buffalo Bills
 
-Official home of Colorado Bills Backers fan club. One of the most spirited NFL fan groups in Denver.",NFL,Buffalo Bills,39.7544952,-104.9951467
+Official home of Colorado Bills Backers fan club. One of the most spirited NFL fan groups in Denver.",NFL,Buffalo Bills
 Jackson's LoDo,"1520 20th St, Denver, CO 80202","1520 20th St, Denver, CO 80202
 Phone: (303) 298-7625
 Web: jacksonsdenver.com
@@ -197,52 +197,52 @@ Web: jacksonsdenver.com
 Sports: NFL
 Teams: Pittsburgh Steelers, Dallas Cowboys, Tampa Bay Buccaneers
 
-Steelers and Bucs bar",NFL,"Pittsburgh Steelers, Dallas Cowboys, Tampa Bay Buccaneers",39.7544952,-104.9951467
+Steelers and Bucs bar",NFL,"Pittsburgh Steelers, Dallas Cowboys, Tampa Bay Buccaneers"
 Krewe BBQ,"1109 Lincoln St, Denver, CO","1109 Lincoln St, Denver, CO
 Web: krewebbq.com
 
 Sports: NFL
 Teams: New Orleans Saints
 
-New Orleans BBQ joint",NFL,New Orleans Saints,39.7340435,-104.9865447
+New Orleans BBQ joint",NFL,New Orleans Saints
 Larimer Beer Hall,"2012 Larimer St, Denver, CO","2012 Larimer St, Denver, CO
 
 Sports: NFL
 Teams: Philadelphia Eagles
 
-Eagles bar in downtown Denver",NFL,Philadelphia Eagles,39.7529974,-104.9920269
+Eagles bar in downtown Denver",NFL,Philadelphia Eagles
 Larimer Beer Hall,"2012 Larimer Street, Denver, CO","2012 Larimer Street, Denver, CO
 
 Sports: MLB
 Teams: PHILADELPHIA PHILLIES
 
-Philadelphia Eagles bar (likely also Phillies).",MLB,PHILADELPHIA PHILLIES,39.7529974,-104.9920269
+Philadelphia Eagles bar (likely also Phillies).",MLB,PHILADELPHIA PHILLIES
 Lodo's Bar & Grill,"1946 Market St, Denver, CO","1946 Market St, Denver, CO
 Web: lodosbarandgrill.com
 
 Sports: NFL
 Teams: Buffalo Bills
 
-Also listed as Bills bar",NFL,Buffalo Bills,39.753149,-104.993564
+Also listed as Bills bar",NFL,Buffalo Bills
 Lodo's Bar & Grill,"8545 S Quebec St, Highlands Ranch, CO","8545 S Quebec St, Highlands Ranch, CO
 Web: lodosbarandgrill.com
 
 Sports: NFL
-Teams: Pittsburgh Steelers",NFL,Pittsburgh Steelers,,
+Teams: Pittsburgh Steelers",NFL,Pittsburgh Steelers
 McGregor Square,"Near Coors Field, Denver, CO","Near Coors Field, Denver, CO
 Web: mcgregorsquare.com
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Entertainment complex with multiple bars/restaurants, Colorado Rockies Flagship Store, retail outlets. Opened 2023.",MLB,COLORADO ROCKIES,,
+Entertainment complex with multiple bars/restaurants, Colorado Rockies Flagship Store, retail outlets. Opened 2023.",MLB,COLORADO ROCKIES
 Occidental,"1950 W 32nd Ave, Denver, CO","1950 W 32nd Ave, Denver, CO
 Web: occidentaldenver.com
 
 Sports: NHL
 Teams: New York Rangers, New York Islanders
 
-OFFICIAL Rangers bar in LoHi",NHL,"New York Rangers, New York Islanders",39.7618856,-105.010905
+OFFICIAL Rangers bar in LoHi",NHL,"New York Rangers, New York Islanders"
 Occidental Bar,"1950 W 32nd Ave, Denver, CO 80211","1950 W 32nd Ave, Denver, CO 80211
 Phone: (720) 291-0083
 Web: occidentalbar.com
@@ -250,7 +250,7 @@ Web: occidentalbar.com
 Sports: MLB
 Teams: NEW YORK YANKEES, NEW YORK METS
 
-Primary NY sports bar (also hosts Giants, Knicks, Rangers, Mets fans). Punk/dive bar vibe with savvy bartenders, excellent cocktails. Six 60-inch T...",MLB,"NEW YORK YANKEES, NEW YORK METS",39.7618856,-105.010905
+Primary NY sports bar (also hosts Giants, Knicks, Rangers, Mets fans). Punk/dive bar vibe with savvy bartenders, excellent cocktails. Six 60-inch T...",MLB,"NEW YORK YANKEES, NEW YORK METS"
 Origins Sports Bar & Grill,"266 S Downing St Unit B, Denver, CO 80209","266 S Downing St Unit B, Denver, CO 80209
 Phone: (303) 635-6691
 Web: washparksportsalley.com
@@ -258,37 +258,37 @@ Web: washparksportsalley.com
 Sports: NFL
 Teams: Cincinnati Bengals
 
-Popular Bengals hangout in Wash Park area",NFL,Cincinnati Bengals,,
+Popular Bengals hangout in Wash Park area",NFL,Cincinnati Bengals
 Pat's Philly Steaks and Subs,"1624 Market Street, Denver, CO","1624 Market Street, Denver, CO
 
 Sports: MLB
 Teams: PHILADELPHIA PHILLIES
 
-Dedicated to everything Philadelphia - cheese steaks, Tastykakes, Phillies, Eagles. Downtown location.",MLB,PHILADELPHIA PHILLIES,39.7501927,-104.9976683
+Dedicated to everything Philadelphia - cheese steaks, Tastykakes, Phillies, Eagles. Downtown location.",MLB,PHILADELPHIA PHILLIES
 Pour House Market Street,"Market Street, Denver, CO","Market Street, Denver, CO
 
 Sports: NBA
 Teams: Boston Celtics
 
-Celtics fan gathering spot",NBA,Boston Celtics,39.7522138,-104.9952826
+Celtics fan gathering spot",NBA,Boston Celtics
 Pour House Pub,"1435 Market Street, Denver, CO","1435 Market Street, Denver, CO
 
 Sports: MLB
 Teams: BOSTON RED SOX
 
-Red Sox bar in downtown Denver.",MLB,BOSTON RED SOX,39.7486851,-105.0003227
+Red Sox bar in downtown Denver.",MLB,BOSTON RED SOX
 Public House,"Denver, CO (specific address TBD)","Denver, CO (specific address TBD)
 
 Sports: MLB
 Teams: PHILADELPHIA PHILLIES
 
-Philly bar alternative to Pat's. Mentioned as ""better Philly bar"" by some fans.",MLB,PHILADELPHIA PHILLIES,,
+Philly bar alternative to Pat's. Mentioned as ""better Philly bar"" by some fans.",MLB,PHILADELPHIA PHILLIES
 Retreat Grill & Sports Tavern,"2186 S Colorado Blvd, Denver, CO","2186 S Colorado Blvd, Denver, CO
 
 Sports: NFL
 Teams: Cleveland Browns
 
-Browns bar",NFL,Cleveland Browns,39.6769124,-104.9406266
+Browns bar",NFL,Cleveland Browns
 Rhein Haus Biergarten,"1415 Market St, Denver, CO 80202","1415 Market St, Denver, CO 80202
 Phone: (303) 731-5374
 Web: rheinhausdenver.com
@@ -296,104 +296,104 @@ Web: rheinhausdenver.com
 Sports: NFL
 Teams: Seattle Seahawks
 
-Hub for ""Mile High Sea Hawkers"" fan club. German-style biergarten. Official Seahawks Bar Alliance location.",NFL,Seattle Seahawks,39.749357,-104.999601
+Hub for ""Mile High Sea Hawkers"" fan club. German-style biergarten. Official Seahawks Bar Alliance location.",NFL,Seattle Seahawks
 Rocky Flats Lounge,"11229 Highway 93, Boulder, CO","11229 Highway 93, Boulder, CO
 
 Sports: NFL
 Teams: Green Bay Packers
 
-Boulder-area Packers bar",NFL,Green Bay Packers,,
+Boulder-area Packers bar",NFL,Green Bay Packers
 Roo Bar,"3480 Park Ave W, Denver, CO","3480 Park Ave W, Denver, CO
 Web: roobarcolorado.com
 
 Sports: NFL
-Teams: Green Bay Packers",NFL,Green Bay Packers,39.7654304,-104.9935783
+Teams: Green Bay Packers",NFL,Green Bay Packers
 Rusty Bucket,"3355 S Wadsworth Blvd, Lakewood, CO","3355 S Wadsworth Blvd, Lakewood, CO
 Web: the-rusty-bucket.com
 
 Sports: NFL
-Teams: Pittsburgh Steelers",NFL,Pittsburgh Steelers,39.6287363,-105.0817305
+Teams: Pittsburgh Steelers",NFL,Pittsburgh Steelers
 Shelby's Bar & Grill,"519 18th St, Denver, CO","519 18th St, Denver, CO
 
 Sports: NFL
 Teams: Carolina Panthers
 
-Historical Panthers bar",NFL,Carolina Panthers,39.7464302,-104.9877507
+Historical Panthers bar",NFL,Carolina Panthers
 Sobo 151,"151 S Broadway, Denver, CO 80209","151 S Broadway, Denver, CO 80209
 Web: sobo151.com
 
 Sports: NHL
 Teams: Colorado Avalanche, Tampa Bay Lightning, All NHL Teams
 
-Czech-owned, #1 hockey bar, NHL Center Ice package",NHL,"Colorado Avalanche, Tampa Bay Lightning, All NHL Teams",39.7135717,-104.9878409
+Czech-owned, #1 hockey bar, NHL Center Ice package",NHL,"Colorado Avalanche, Tampa Bay Lightning, All NHL Teams"
 Society Sports,"1434 Blake St, Denver, CO","1434 Blake St, Denver, CO
 
 Sports: NBA
 Teams: Denver Nuggets, Houston Rockets, San Antonio Spurs, All NBA Teams
 
-Near Ball Arena, Texas vibe",NBA,"Denver Nuggets, Houston Rockets, San Antonio Spurs, All NBA Teams",39.7489898,-105.0006985
+Near Ball Arena, Texas vibe",NBA,"Denver Nuggets, Houston Rockets, San Antonio Spurs, All NBA Teams"
 Society Sports And Spirits,"LoDo, near Ball Arena, Denver, CO","LoDo, near Ball Arena, Denver, CO
 Web: societydenver.com
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Premier local sports bar in heart of downtown Denver near Ball Arena. Specializes in ""The Tailgate"" experience.",MLB,COLORADO ROCKIES,,
+Premier local sports bar in heart of downtown Denver near Ball Arena. Specializes in ""The Tailgate"" experience.",MLB,COLORADO ROCKIES
 Sports Column,"1930 Blake St, Denver, CO","1930 Blake St, Denver, CO
 Web: denversportscolumn.com
 
 Sports: NFL
 Teams: Houston Texans, Indianapolis Colts, Arizona Cardinals
 
-Multi-team bar (Texans, Colts, Cardinals)",NFL,"Houston Texans, Indianapolis Colts, Arizona Cardinals",39.7535816,-104.9947458
+Multi-team bar (Texans, Colts, Cardinals)",NFL,"Houston Texans, Indianapolis Colts, Arizona Cardinals"
 Sports Column,"1930 Blake Street, Denver, CO","1930 Blake Street, Denver, CO
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Was Denver's best sports bar for 23+ years. Rooftop patio. LoDo near Coors Field. Being replaced by new country bar (as of March 2025). Also hosted...",MLB,COLORADO ROCKIES,39.7535816,-104.9947458
+Was Denver's best sports bar for 23+ years. Rooftop patio. LoDo near Coors Field. Being replaced by new country bar (as of March 2025). Also hosted...",MLB,COLORADO ROCKIES
 Spot Bar & Grill,"98 S Pennsylvania St, Denver, CO","98 S Pennsylvania St, Denver, CO
 Web: spotbarandgrill.com
 
 Sports: NFL
 Teams: Dallas Cowboys
 
-Primary Cowboys bar listed by Uncover Colorado",NFL,Dallas Cowboys,39.714853,-104.981381
+Primary Cowboys bar listed by Uncover Colorado",NFL,Dallas Cowboys
 Stoney's Bar & Grill,"1111 Lincoln St, Denver, CO","1111 Lincoln St, Denver, CO
 Web: stoneysbarandgrill.com
 
 Sports: NFL
 Teams: Los Angeles Rams (St. Louis Rams)
 
-Listed as St. Louis Rams bar (legacy name). Also Kansas Jayhawks and Oklahoma Sooners bar.",NFL,Los Angeles Rams (St. Louis Rams),39.7342328,-104.9865051
+Listed as St. Louis Rams bar (legacy name). Also Kansas Jayhawks and Oklahoma Sooners bar.",NFL,Los Angeles Rams (St. Louis Rams)
 Stoney's Bar & Grill,Multiple Denver locations,"Multiple Denver locations
 Web: stoneysbarandgrill.com
 
 Sports: NHL
 Teams: Colorado Avalanche
 
-Shows Avs games",NHL,Colorado Avalanche,,
+Shows Avs games",NHL,Colorado Avalanche
 Stoney's Bar and Grill,"1111 Lincoln Street, Denver, CO (also 90 South Broadway for Cantina location)","1111 Lincoln Street, Denver, CO (also 90 South Broadway for Cantina location)
 Web: stoneysbarandgrill.com
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Multiple locations. Popular Rockies/Denver sports bar. Separated sections for games (watch with fellow fans of your team). Food can take a while bu...",MLB,COLORADO ROCKIES,,
+Multiple locations. Popular Rockies/Denver sports bar. Separated sections for games (watch with fellow fans of your team). Food can take a while bu...",MLB,COLORADO ROCKIES
 Stoney's Cantina,"90 South Broadway, Denver, CO","90 South Broadway, Denver, CO
 Web: stoneyscantina.com
 
 Sports: NFL
 Teams: Miami Dolphins
 
-Primary Dolphins bar. Note: Reddit posts from 2024 mention Stoney's may have closed - verification recommended.",NFL,Miami Dolphins,39.7149968,-104.9874134
+Primary Dolphins bar. Note: Reddit posts from 2024 mention Stoney's may have closed - verification recommended.",NFL,Miami Dolphins
 Swanky's Vittles & Libations,"1938 Blake St, Denver, CO","1938 Blake St, Denver, CO
 Web: swankys.com
 
 Sports: NFL
 Teams: Pittsburgh Steelers, Green Bay Packers
 
-Also Packers bar",NFL,"Pittsburgh Steelers, Green Bay Packers",39.7536759,-104.994622
+Also Packers bar",NFL,"Pittsburgh Steelers, Green Bay Packers"
 Tap & Burger,"4920 South Newport Street, Denver, CO 80237","4920 South Newport Street, Denver, CO 80237
 Phone: (720) 712-2260
 Web: tapandburger.com
@@ -401,83 +401,83 @@ Web: tapandburger.com
 Sports: NFL
 Teams: Kansas City Chiefs
 
-Modern bar with local beer and gourmet burgers",NFL,Kansas City Chiefs,39.6250877,-104.9070615
+Modern bar with local beer and gourmet burgers",NFL,Kansas City Chiefs
 Tap Fourteen,"1920 Blake Street, Denver, CO (Rooftop Beer Garden)","1920 Blake Street, Denver, CO (Rooftop Beer Garden)
 
 Sports: MLB
 Teams: LOS ANGELES DODGERS
 
-Official meetup spot for Colorado Dodgers Fans group. Pre-game gatherings (3:00-3:30pm before games). Located near Coors Field.",MLB,LOS ANGELES DODGERS,,
+Official meetup spot for Colorado Dodgers Fans group. Pre-game gatherings (3:00-3:30pm before games). Located near Coors Field.",MLB,LOS ANGELES DODGERS
 Tavern Lowry,"7401 E 1st Ave, Denver, CO","7401 E 1st Ave, Denver, CO
 Web: tavernhg.com/lowry
 
 Sports: NFL
-Teams: Las Vegas Raiders (Oakland Raiders)",NFL,Las Vegas Raiders (Oakland Raiders),39.7189447,-104.9011277
+Teams: Las Vegas Raiders (Oakland Raiders)",NFL,Las Vegas Raiders (Oakland Raiders)
 Tavern Platt Park,"1475 Pearl St, Denver, CO","1475 Pearl St, Denver, CO
 
 Sports: NFL
 Teams: New York Giants
 
-Giants Facebook group meets on second floor",NFL,New York Giants,39.7395669,-104.9800156
+Giants Facebook group meets on second floor",NFL,New York Giants
 Tavern Platt Park,"1475 Pearl Street, Denver, CO","1475 Pearl Street, Denver, CO
 
 Sports: MLB
 Teams: NEW YORK METS
 
-NY Giants football bar, Mets fans FB group meets on second floor.",MLB,NEW YORK METS,39.7395669,-104.9800156
+NY Giants football bar, Mets fans FB group meets on second floor.",MLB,NEW YORK METS
 Tavern Uptown,"538 E 17th Ave, Denver, CO","538 E 17th Ave, Denver, CO
 Web: tavernhg.com/uptown
 
 Sports: NFL
 Teams: Tennessee Titans, New York Giants, Washington Commanders (Redskins)
 
-Multi-team bar",NFL,"Tennessee Titans, New York Giants, Washington Commanders (Redskins)",39.7431852,-104.9805869
+Multi-team bar",NFL,"Tennessee Titans, New York Giants, Washington Commanders (Redskins)"
 The Elm,"5001 E Colfax Ave, Denver, CO","5001 E Colfax Ave, Denver, CO
 Web: theelmdenver.com
 
 Sports: NFL
 Teams: New England Patriots
 
-All Boston sports (Bruins, Celtics, Red Sox, Revolution, Patriots)",NFL,New England Patriots,39.740217,-104.929639
+All Boston sports (Bruins, Celtics, Red Sox, Revolution, Patriots)",NFL,New England Patriots
 The Elm,"5001 East Colfax Avenue, Denver, CO","5001 East Colfax Avenue, Denver, CO
 Web: theelmdenver.com
 
 Sports: MLB
 Teams: BOSTON RED SOX
 
-Boston sports bar (Red Sox, Bruins, Celtics, Patriots, Revolution). East Denver location.",MLB,BOSTON RED SOX,39.740217,-104.929639
+Boston sports bar (Red Sox, Bruins, Celtics, Patriots, Revolution). East Denver location.",MLB,BOSTON RED SOX
 The Occidental (LoHi),"1950 W 32nd Ave, Denver, CO 80211","1950 W 32nd Ave, Denver, CO 80211
 
 Sports: NFL
 Teams: New York Giants
 
-Home of ""Big Blue Denver Crew"" (gathering since 2009). Punk-themed bar with arcade games. No cover charge, first come first serve seating.",NFL,New York Giants,39.7618856,-105.010905
+Home of ""Big Blue Denver Crew"" (gathering since 2009). Punk-themed bar with arcade games. No cover charge, first come first serve seating.",NFL,New York Giants
 The Summit,"1180 Interquest Parkway, Denver, CO","1180 Interquest Parkway, Denver, CO
 
 Sports: NFL
 Teams: San Francisco 49ers
 
-Listed on 49ers Webzone",NFL,San Francisco 49ers,,
+Listed on 49ers Webzone",NFL,San Francisco 49ers
 The Tavern Downtown,"1949 Market St, Denver, CO 80202","1949 Market St, Denver, CO 80202
 
 Sports: NFL
 Teams: Washington Commanders (Redskins)
 
-Was designated Redskins bar circa 2013",NFL,Washington Commanders (Redskins),39.7535423,-104.9940743
+Was designated Redskins bar circa 2013",NFL,Washington Commanders (Redskins)
 Tom's Watch Bar,"Near Coors Field, LoDo, Denver, CO","Near Coors Field, LoDo, Denver, CO
 Web: tomswatchbar.com
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-Steps from Coors Field. Wall-to-wall 360° screens. Ultimate game-day destination for Rockies, Broncos, Nuggets, Avalanche, Buffaloes fans. Shows co...",MLB,COLORADO ROCKIES,,
+Steps from Coors Field. Wall-to-wall 360° screens. Ultimate game-day destination for Rockies, Broncos, Nuggets, Avalanche, Buffaloes fans. Shows co...",MLB,COLORADO ROCKIES
 Tom's Watch Bar,"Near Coors Field, Denver, CO","Near Coors Field, Denver, CO
 Web: tomswatchbar.com
 
 Sports: NBA, NHL
 Teams: Colorado Avalanche, All NHL Teams, Denver Nuggets, All NBA Teams
 
-Massive screens, all sports","NBA, NHL","Colorado Avalanche, All NHL Teams, Denver Nuggets, All NBA Teams",,
+Massive screens, all sports","NBA, NHL","Colorado Avalanche, All NHL Teams, Denver Nuggets, All NBA Teams"
 Tony Tenderonis,"1937 Market St, Denver, CO 80202","1937 Market St, Denver, CO 80202
 Phone: (720) 542-8495
 Web: tonytenderonis.com
@@ -485,17 +485,17 @@ Web: tonytenderonis.com
 Sports: NFL
 Teams: San Francisco 49ers
 
-Official 49ers bar. Home of ""5280-The Mile High 49ers"" fan club (3,600+ members). Family-friendly. Featured in 9News for Super Bowl coverage.",NFL,San Francisco 49ers,39.7534066,-104.9942818
+Official 49ers bar. Home of ""5280-The Mile High 49ers"" fan club (3,600+ members). Family-friendly. Featured in 9News for Super Bowl coverage.",NFL,San Francisco 49ers
 Union Lodge No. 1,"Denver, CO","Denver, CO
 
 Sports: MLB
 Teams: COLORADO ROCKIES
 
-General sports bar frequently mentioned in Yelp results for Rockies/MLB.",MLB,COLORADO ROCKIES,39.7392364,-104.984862
+General sports bar frequently mentioned in Yelp results for Rockies/MLB.",MLB,COLORADO ROCKIES
 W.T. Shorty's,"990 S Oneida St, Denver, CO","990 S Oneida St, Denver, CO
 
 Sports: NFL
-Teams: Pittsburgh Steelers",NFL,Pittsburgh Steelers,39.6986499,-104.907766
+Teams: Pittsburgh Steelers",NFL,Pittsburgh Steelers
 Will Call,"3043 Brighton Blvd, Denver, CO 80202","3043 Brighton Blvd, Denver, CO 80202
 Phone: (720) 484-6428
 Web: willcalldenver.com
@@ -503,23 +503,23 @@ Web: willcalldenver.com
 Sports: NFL
 Teams: Carolina Panthers
 
-Newer Panthers bar location (as of 2024)",NFL,Carolina Panthers,39.7659185,-104.9845885
+Newer Panthers bar location (as of 2024)",NFL,Carolina Panthers
 Wrigley's Chicago Bar & Grill,"Golden, CO (specific address TBD)","Golden, CO (specific address TBD)
 
 Sports: MLB
 Teams: CHICAGO CUBS
 
-Chicago-focused bar in Golden. Mentioned as ""only Chicago focused bar"" by some Redditors. Not primarily craft beer focused.",MLB,CHICAGO CUBS,,
+Chicago-focused bar in Golden. Mentioned as ""only Chicago focused bar"" by some Redditors. Not primarily craft beer focused.",MLB,CHICAGO CUBS
 Wyman's No. 5,Near Cheesman Park (13th St area),"Near Cheesman Park (13th St area)
 
 Sports: NFL
 Teams: Chicago Bears
 
-Full Chicago bar with deep dish pizza on menu",NFL,Chicago Bears,,
+Full Chicago bar with deep dish pizza on menu",NFL,Chicago Bears
 Wyman's No. 5,"2033 East 13th Avenue, Denver, CO","2033 East 13th Avenue, Denver, CO
 Web: wymansno5.com
 
 Sports: MLB
 Teams: CHICAGO CUBS
 
-PRIMARY Cubs bar in Denver. Also Chicago Bears, Blackhawks, Kansas State fans. Hockey bar at its core. Capitol Hill location.",MLB,CHICAGO CUBS,39.7369415,-104.962573
+PRIMARY Cubs bar in Denver. Also Chicago Bears, Blackhawks, Kansas State fans. Hockey bar at its core. Capitol Hill location.",MLB,CHICAGO CUBS

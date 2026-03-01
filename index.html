@@ -72,41 +72,91 @@
         let markers = [];
         let activeSports = new Set(['NFL', 'MLB', 'NHL', 'NBA']);
         
-        // Load and geocode bars (simplified - addresses would need real geocoding)
-        // For demo, we'll use approximate Denver coordinates
+        // Parse CSV properly with quoted fields
+        function parseCSV(text) {
+            const lines = text.split('\n');
+            const headers = lines[0].split(',');
+            const data = [];
+            
+            for (let i = 1; i < lines.length; i++) {
+                if (!lines[i].trim()) continue;
+                
+                // Handle quoted CSV fields
+                const values = [];
+                let current = '';
+                let inQuotes = false;
+                
+                for (let j = 0; j < lines[i].length; j++) {
+                    const char = lines[i][j];
+                    if (char === '"') {
+                        inQuotes = !inQuotes;
+                    } else if (char === ',' && !inQuotes) {
+                        values.push(current.trim());
+                        current = '';
+                    } else {
+                        current += char;
+                    }
+                }
+                values.push(current.trim());
+                
+                if (values.length >= 7) {
+                    const lat = parseFloat(values[5]);
+                    const lng = parseFloat(values[6]);
+                    
+                    // Only include bars with valid coordinates
+                    if (!isNaN(lat) && !isNaN(lng)) {
+                        data.push({
+                            name: values[0],
+                            address: values[1],
+                            description: values[2],
+                            sports: values[3],
+                            teams: values[4],
+                            lat: lat,
+                            lng: lng
+                        });
+                    }
+                }
+            }
+            return data;
+        }
+        
+        // Load bars with REAL geocoded coordinates
         fetch('denver-sports-bars-google-maps.csv')
             .then(r => r.text())
             .then(text => {
-                const lines = text.split('\n').slice(1);
-                barsData = lines.map((line, i) => {
-                    const match = line.match(/^"?([^",]+)"?,\s*"?([^",]+)"?,\s*"([^"]*)",\s*"?([^",]+)"?,\s*"([^"]*)"/);
-                    if (!match) return null;
-                    return {
-                        name: match[1],
-                        address: match[2],
-                        description: match[3],
-                        sports: match[4],
-                        teams: match[5],
-                        lat: 39.7392 + (Math.random() - 0.5) * 0.1,
-                        lng: -104.9903 + (Math.random() - 0.5) * 0.1
-                    };
-                }).filter(b => b);
+                barsData = parseCSV(text);
+                console.log(`Loaded ${barsData.length} bars with coordinates`);
                 renderMap();
                 renderList();
+            })
+            .catch(err => {
+                console.error('Error loading bars:', err);
             });
         
         function renderMap() {
             markers.forEach(m => map.removeLayer(m));
             markers = [];
             
+            const bounds = [];
+            
             barsData.forEach(bar => {
                 const sportList = bar.sports.split(',').map(s => s.trim());
                 if (!sportList.some(s => activeSports.has(s))) return;
                 
                 const marker = L.marker([bar.lat, bar.lng]).addTo(map);
-                marker.bindPopup(`<b>${bar.name}</b><br>${bar.address}<br><small>${bar.teams}</small>`);
+                marker.bindPopup(`
+                    <b>${bar.name}</b><br>
+                    ${bar.address}<br>
+                    <small>${bar.teams}</small>
+                `);
                 markers.push(marker);
+                bounds.push([bar.lat, bar.lng]);
             });
+            
+            // Auto-fit map to show all markers
+            if (bounds.length > 0) {
+                map.fitBounds(bounds, { padding: [50, 50] });
+            }
         }
         
         function renderList() {
